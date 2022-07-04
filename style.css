@@ -3,13 +3,17 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
+.heading{
     font-size: 50px;
 }
+.ft-size{
+    font-size: 40px;
+}
+
 .taraque{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -40,5 +44,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.web-dep{
+    height: 400px;
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding-left: 30px;
+    box-shadow: 10px 10px 40px grey;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#Stack{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
 
